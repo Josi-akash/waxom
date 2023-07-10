@@ -1,0 +1,126 @@
+/* ALL COMMON CSS START */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+  line-height: .8;
+}
+.clr {
+  clear: both;
+}
+
+/* ALL COMMON CSS END */
+
+/* HEADER PART START  */
+#header_part {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.logo {
+  padding-top: 30px;
+  float: left;
+  width: 270px;
+}
+.menu {
+  float: left;
+  width: 900px;
+  text-align: right;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: white;
+  line-height: 120px;
+  font-style: 14px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 25px;
+  transition: all linear 0.4s;
+}
+.menu ul li a:hover {
+  color: #c7b299;
+}
+
+/* HEADER PART END  */
+
+/* BANNER PART START  */
+#banner_part {
+  background: url(../images/Waxom-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_overly {
+  padding: 380px 0;
+  background: rgb(18, 18, 18, 0.7);
+}
+.banner_content {
+  text-align: center;
+}
+.banner_content h3 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.banner_content h1 {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+ padding-top: 15px;
+ padding-bottom: 20px;
+}
+.banner_content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 288px;
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+.banner_content a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  padding: 21px 39px 18px 39px;
+  border-bottom: 3px solid #ca8632;
+  background: #998675;
+  border-radius: 5px;
+}
+/* BANNER PART END  */
+
+
+
+/* HEADER PART START  */
+/* HEADER PART END  */
+/* HEADER PART START  */
+/* HEADER PART END  */
+/* HEADER PART START  */
+/* HEADER PART END  */
+/* HEADER PART START  */
+/* HEADER PART END  */
+/* HEADER PART START  */
+/* HEADER PART END  */
